@@ -18,21 +18,21 @@
     "stores": {
         "raw": {
             "protocol": "file",
-            "location": "/home/jovyan/spyglass/data/nwb/raw",
-            "stage": "/home/jovyan/spyglass/data/nwb/raw"
+            "location": "/home/jovyan/spyglass-notebooks/data/nwb/raw",
+            "stage": "/home/jovyan/spyglass-notebooks/data/nwb/raw"
         },
         "analysis": {
             "protocol": "file",
-            "location": "/home/jovyan/spyglass/data/nwb/analysis",
-            "stage": "/home/jovyan/spyglass/data/nwb/analysis"
+            "location": "/home/jovyan/spyglass-notebooks/data/nwb/analysis",
+            "stage": "/home/jovyan/spyglass-notebooks/data/nwb/analysis"
         }
     },
     "custom": {
         "spyglass_dirs": {
-            "base": "/home/jovyan/spyglass/data/nwb"
+            "base": "/home/jovyan/spyglass-notebooks/data/nwb"
         },
         "kachery_dirs": {
-            "cloud": "/home/jovyan/spyglass/data/.kachery_cloud"
+            "cloud": "/home/jovyan/spyglass-notebooks/data/.kachery_cloud"
         },
         "kachery_zone": "franklab.collaborators"
     }
