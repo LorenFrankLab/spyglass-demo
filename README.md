@@ -16,4 +16,4 @@ The Jupyter notebooks have been copied from https://github.com/LorenFrankLab/spy
 The [magic link](https://spyglass.hhmi.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjmunroe%2Fspyglass-notebooks&urlpath=lab%2Ftree%2Fspyglass-notebooks%2Fnotebooks%2F01_Insert_Data.ipynb&branch=main)
 is a application of the [nbgitpuller](https://nbgitpuller.readthedocs.io/) project.  Please use this [nbgitpuller link generator](https://nbgitpuller.readthedocs.io/en/latest/link.html) to create a new link if this repository is moved or forked.
 
-nbgitpuller is compatiable with URL shorteners if that is desired. Example: [bit.ly/2i2c-spyglass](https://bit.ly/2i2c-spyglass) automatically redirects to the same magic link given above.
+nbgitpuller is compatiable with URL shorteners if that is desired. 
