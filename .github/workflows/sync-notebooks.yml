@@ -1,0 +1,24 @@
+name: Sync Notebooks Folder
+
+on:
+  schedule:
+    - cron:  '0 0 * * 0'  # Runs at 00:00 every Sunday
+
+jobs:
+  sync-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout destination repository
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: Sync notebooks from source repository
+      uses: repo-sync/github-sync@v2
+      with:
+        source_repo: "LorenFrankLab/spyglass"
+        source_branch: "master"
+        destination_branch: "master"
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        sync: "notebooks/*"
+        sync_strategy: 'theirs'
