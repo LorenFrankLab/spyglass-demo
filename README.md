@@ -1,5 +1,5 @@
 [Magic Link](
-https://spyglass.hhmi.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjmunroe%2Fspyglass-notebooks&urlpath=lab%2Ftree%2Fspyglass-notebooks%2Fnotebooks%2F01_Insert_Data.ipynb&branch=main)
+https://spyglass.hhmi.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FLorenFrankLab%2Fspyglass-demo&urlpath=lab%2Ftree%2Fspyglass-demo%2Fnotebooks%2F01_Insert_Data.ipynb&branch=main)
 
 This repository is meant to support the paper:
 
