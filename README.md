@@ -8,6 +8,8 @@ This repository is meant to support the paper:
 
 The Jupyter notebooks have been copied from <https://github.com/LorenFrankLab/spyglass> and a local DataJoint configuration created so that the notebooks work 'out-of-the-box' when used in conjuction with ephemeral the JupyterHub <https://spyglass.hhmi.cloud> managed by [2i2c](https://2i2c.org)
 
+The image used to run the JupyterHub is located at: <https://quay.io/repository/lorenlab/hhmi-spyglass-image> and the source code for the image is located at <https://github.com/LorenFrankLab/hhmi-spyglass-image>.
+
 The [magic link](https://spyglass.hhmi.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FLorenFrankLab%2Fspyglass-demo&urlpath=lab%2Ftree%2Fspyglass-demo%2Fnotebooks%2F01_Insert_Data.ipynb&branch=main)
 is a application of the [nbgitpuller](https://nbgitpuller.readthedocs.io/) project.  Please use this [nbgitpuller link generator](https://nbgitpuller.readthedocs.io/en/latest/link.html) to create a new link if this repository is moved or forked.
 
